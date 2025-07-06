@@ -1,5 +1,5 @@
 resource "kind_cluster" "local" {
-  name           = "demo-test2"
+  name           = var.cluster_name
   wait_for_ready = true
 
   kind_config {

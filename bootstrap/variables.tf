@@ -1,3 +1,9 @@
+variable "cluster_name" {
+  description = "Name of the Kubernetes cluster"
+  type        = string
+  default     = "kbot-demo"
+}
+
 variable "github_org" {
   description = "GitHub organization name"
   type        = string
